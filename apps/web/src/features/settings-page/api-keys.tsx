@@ -34,6 +34,10 @@ const API_KEY_SECTIONS: Record<string, Omit<ApiKeySection, "keys">> = {
     title: "LLMs",
   },
   // infrastructure: {
+  openrouter: {
+    title: "OpenRouter",
+    description: "Manage your OpenRouter API key for enhanced connectivity.",
+  },
   //   title: "Infrastructure",
   // },
 };
